@@ -5,7 +5,7 @@ An ROS implementation for RANSAC based L-shape fitting for 3D LiDAR point clouds
 ![ROS](https://img.shields.io/badge/Tools-ROS-informational?style=flat&logo=ROS&logoColor=white&color=2bbc8a)
 ![C++](https://img.shields.io/badge/Code-C++-informational?style=flat&logo=c%2B%2B&logoColor=white&color=2bbc8a)
 
-![demo_1](media/demo_1.png)
+![demo_1](media/demo_01.png)
 
 
 ## Reference
