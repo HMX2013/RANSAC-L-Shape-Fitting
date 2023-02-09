@@ -1,0 +1,12 @@
+<!-- Launch file for L shape box fitting -->  
+<launch>
+
+  <node pkg="ransac_lshape_fitting" type="ransac_lshape_fitting" name="ransac_lshape_fitting" output="screen" >
+    <param name="input_cluster_topic"           value="/kitti3d/cluster_array"/>
+    <param name="bbox_target_frame"           value="map"/>     
+  </node>
+  
+  <!-- Rviz -->
+  <node type="rviz" name="rviz" pkg="rviz" args="-d $(find ransac_lshape_fitting)/rviz/ransac_l_shape_fitting.rviz" output="log" respawn="false" />
+
+</launch>

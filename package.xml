@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ransac_lshape_fitting</name>
+  <version>1.12.0</version>
+  <description>ransac_lshape_fitting package</description>
+  <maintainer email="hmx_2013@outlook.com">hmx</maintainer>
+  <license>MIT</license>
+
+  <!-- <buildtool_depend>autoware_build_flags</buildtool_depend> -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>message_generation</exec_depend>
+  <depend>autoware_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>pcl_ros</depend>
+  <depend>roscpp</depend>
+  <depend>tf</depend>
+  
+  <build_depend>obsdet_msgs</build_depend>
+  <exec_depend>obsdet_msgs</exec_depend>
+</package>
